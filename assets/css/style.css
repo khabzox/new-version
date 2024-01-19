@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Header & Navigation */
+
+header {
+    padding: 0px 35px 0px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin: 4em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 3.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 1.6rem;
+}
+
+nav ul li a.active:before {
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 1px;
+    border-bottom: 2px solid #27005D;
+    bottom: -6px;
+}
+
+nav ul li a:before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 1px;
+    border-bottom: 2px solid rgb(152, 152, 152);
+    bottom: -6px;
+    transition: width .3s;
+}
+
+
+/* Hero Section */
+
+main {
+    display: flex;
+    gap: 8em;
+    margin-top: 11em;
+    justify-content: center;
+}
+
+.left-col {    
+    width: 45%;
+    text-align: center;
+}
+.right-col {
+    flex-grow: 1;
+}
+h1 {
+    font-family: 'Climate Crisis', sans-serif;
+    /* font-family: 'Playfair Display'; */
+    font-weight: normal;
+    font-size: 5.2rem;
+    margin:0;
+}
+.grid-color{
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #27005D, #9400FF);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.subhead {
+    font-size: 1.8rem;
+}
+.cta-btns {
+    margin: 5em 0;
+}
+.cta-btns, .secondary-cta {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+.primary-cta {
+    background: #9400FF;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 1.9em;
+    padding: 1em 2em;
+}
+.secondary-cta {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1em 0;
+}
+.secondary-cta svg {
+    width: 20px;
+    transition: transform .3s !important;
+}
+/* Microinteractions */ 
+
+nav ul li a:hover:before {
+    width: 35%;
+}
+
+.primary-cta:hover {
+    background: rgba(151, 9, 252, 0.832);
+}
+
+.secondary-cta:hover svg {
+    transform: translateX(10px);
+}
+
+
+/* Intro Animation */
+
+.overlay {
+    position: absolute;
+    z-index: 999;
+    background: white;
+    width: 100%;
+    height: 100%;
+    animation: reveal 1s ease-in forwards;
+    transform-origin: bottom;
+}
+@keyframes reveal {
+    from {
+        transform: scaleY(1);
+    }
+    to {
+        transform: scaleY(0);
+    }
+}
+
+main {
+    animation: growIn 2s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+    transform: scale(.4);
+}
+
+@keyframes growIn {
+    to {
+        transform: scale(1);
+    }
+}
