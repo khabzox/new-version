@@ -287,8 +287,14 @@ main {
     padding: 30px;
     font-size: 17px;
     color: #fff;
+    font-family: 'CustomFont', Arial, sans-serif;
 }
 .about-text > .title-text{
+    line-height: 2.6;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 34px;
+}
+.about-text > .p-text{
+    line-height: 1.5;
+    font-size: 20px;
 }
