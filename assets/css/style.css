@@ -16,11 +16,11 @@ body {
 /* selector */
 ::selection {
     color: #fff;
-    background-color: #000;
+    background-color: #39008a;
 }
 
 ::-webkit-scrollbar {
-    width: 6px
+    width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -225,4 +225,70 @@ main {
     to {
         transform: scale(1);
     }
+}
+
+/*  about-section  */
+
+.custom-shape-divider-top-1705758648 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    border: none;
+}
+
+.custom-shape-divider-top-1705758648 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 103px;
+}
+
+.custom-shape-divider-top-1705758648 .shape-fill {
+    fill: #ffffff;
+}
+.about-section{
+    background-color: #27005D;
+    position: relative;
+    height: auto;
+    z-index: -3;
+    margin-top: 50px;
+    padding-bottom: 10vh;
+}
+
+.about-text-logo{
+    display: flex;
+    padding-top: 16%;
+    justify-content: center;
+    align-items: center;
+}
+.lg-title{
+    position: absolute;
+    text-transform: uppercase;
+    color: #420399;
+    font-size: 60px;
+    text-shadow: #420399 1px 0 10px;
+}
+.sm-title{
+    z-index: 1;
+    font-family: 'Climate Crisis', sans-serif !important;
+    color: #efe6ff;
+    font-weight: 200;
+    font-size: 30px;
+}
+.about-text-img{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.about-text{
+    padding: 30px;
+    font-size: 17px;
+    color: #fff;
+}
+.about-text > .title-text{
+    font-weight: 600;
+    font-size: 30px;
 }
