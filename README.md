@@ -67,4 +67,9 @@ git clone https://github.com/khabzo/new-version.git
 
 link: www.AyoubSVT.com
 
+## Contact ME
+[<img src="https://img.shields.io/badge/Gmail-abdelkabir.ouadoukou@gmail.com-informational?style=for-the-badge&labelColor=black&logo=gmail&logoColor=7752FE&&color=190482"/>][gmail]
+
+
+[gmail]: mailto:abdelkabir.ouadoukou@gmail.com
 
