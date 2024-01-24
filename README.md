@@ -26,13 +26,13 @@ A targeted website specializing in life and earth sciences. It features a virtua
 | hover Color, text color, ... | ![#AED2FF](https://via.placeholder.com/10/AED2FF?text=+) #AED2FF|
 
 
-## Responsive for browsers
- - for Desktop
+## 📲 Responsive for browsers
+ - for Desktop 🖥️
 
 | Browser | Chrome  | Edge  | Firefox  | Opera  | Safari  |
 | :------ | :----   | :---- | :------  | :--    | :------ |
 | Support | ✅      | ✅   |    ✅   | ✅     |   ✅    |
- - for mobile
+ - for mobile 📱
 
 | Browser | Chrome Android | Firefox for Android  | Opera Android | Safari on iOS  | Samsung Internet  | WebView Android |
 | :------ | :----   | :---- | :------  | :--    | :------ | :---- |
