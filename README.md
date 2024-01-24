@@ -9,7 +9,7 @@
 
 A targeted website specializing in life and earth sciences. It features a virtual laboratory and lessons for all levels to help teachers and students develop the method of learning the subject!
 
-![website](https://github.com/khabzo/ayoubsvt.com/blob/main/readme-images/desktopp.png)
+![website](https://github.com/khabzo/new-version/blob/main/assets/img/image.png)
 
 ## 🛠 Skills
 
