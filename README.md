@@ -22,6 +22,7 @@ A targeted website specializing in life and earth sciences. It features a virtua
 
 ## Responsive for browsers
  - for Desktop
+ - 
 | Browser | Chrome  | Edge  | Firefox  | Opera  | Safari  |
 | :------ | :----   | :---- | :------  | :--    | :------ |
 | Support | ✅      | ✅   |    ✅   | ✅     |   ✅    |
