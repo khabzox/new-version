@@ -5,7 +5,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/khabzo/new-version?style=social)
 </div>
 
-# AyoubSVT | SCIENCES DE LA VIE ET DE LA TERRE (SVT)
+# AyoubSVT | LIFE AND EARTH SCIENCES (SVT)
 
 A targeted website specializing in life and earth sciences. It features a virtual laboratory and lessons for all levels to help teachers and students develop the method of learning the subject!
 
