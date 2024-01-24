@@ -16,7 +16,7 @@ A targeted website specializing in life and earth sciences. It features a virtua
 
 
 
-## Color Reference
+## 🎨 Color Reference
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
