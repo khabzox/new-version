@@ -1,3 +1,9 @@
+<div align="center">
+  
+![GitHub repo size](https://img.shields.io/github/repo-size/khabzo/ayoubsvt)
+![GitHub stars](https://img.shields.io/github/stars/khabzo/ayoubsvt?style=social)
+![GitHub forks](https://img.shields.io/github/forks/khabzo/ayoubsvt?style=social)
+</div>
 
 # AyoubSVT | SCIENCES DE LA VIE ET DE LA TERRE (SVT)
 
